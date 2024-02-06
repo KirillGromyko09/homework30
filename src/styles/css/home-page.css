@@ -796,7 +796,7 @@ progress {
 }
 
 .col {
-  flex: 1 0 0%;
+  flex: 1 0 0 %;
 }
 
 .row-cols-auto > * {
@@ -1005,7 +1005,7 @@ progress {
 
 @media (min-width: 576px) {
   .col-sm {
-    flex: 1 0 0%;
+    flex: 1 0 0 %;
   }
   .row-cols-sm-auto > * {
     flex: 0 0 auto;
