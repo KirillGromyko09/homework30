@@ -1,0 +1,24 @@
+.catalog-controls {
+
+  &__view{
+    .button {
+      width: 100%;
+    }
+    .dropdown-toggle::after{
+      margin-left: 20px;
+    }
+  }
+
+
+  &__search {
+    input.form-control[type=text] {
+      padding-right: 70px;
+      border-radius: 54px;
+    }
+
+  [type=submit] {
+    top: 0;
+    right: 10px;
+  }
+  }
+}
